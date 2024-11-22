@@ -1,0 +1,162 @@
+.banner {
+  height: 100vh;
+  position: relative;
+}
+
+.texto {
+  color: aliceblue;
+  position: absolute;
+  top: 350px;
+
+  font-size: 40px;
+}
+
+.rojo {
+  color: red;
+}
+
+.boton {
+  position: absolute;
+  top: 500px;
+
+  padding: 18px 65px;
+  background-color: red;
+  font-size: 25px;
+}
+.comprar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ps4 {
+  width: 129px;
+  height: 163px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.envio {
+  color: green;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.posrelativa {
+  position: relative;
+}
+
+.absoluto {
+  position: absolute;
+  left: 450px;
+  top: 1380px;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.posabsoluto {
+  position: absolute;
+  left: 1060px;
+  top: 1380px;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.fondo {
+  background-color: #222222;
+  width: 1513px;
+  height: 216px;
+  top: 1389px;
+  /* display: flex; */
+}
+
+.imgfooter {
+  width: 40px;
+  height: 40px;
+  top: 1630px;
+  left: 85px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  /* display: flex; */
+}
+
+.imgfooter2 {
+  width: 123px;
+  height: 40px;
+  top: 1635px;
+  left: 150px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  /* display: flex; */
+}
+
+.textfooter {
+  width: 168px;
+  height: 29px;
+  top: 1620px;
+  left: 1200px;
+  gap: 0px;
+  opacity: 0px;
+  color: antiquewhite;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29.3px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  /* display: flex; */
+}
+
+.imgfooter3 {
+  width: 25px;
+  height: 32px;
+  top: 1660px;
+  left: 1200px;
+  padding: 3.01px 0px 3.01px 0px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  /* display: flex; */
+}
+
+.imgfooter4 {
+  width: 25px;
+  height: 32px;
+  top: 1660px;
+  left: 1270px;
+  padding: 3.01px 0px 3.01px 0px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  /* display: flex; */
+}
+
+.imgfooter5 {
+  width: 25px;
+  height: 32px;
+  top: 1660px;
+  left: 1340px;
+  padding: 3.01px 0px 3.01px 0px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  /* display: flex; */
+}
+
+.copy {
+  background-color: #c4c4c4;
+  text-align: center;
+  height: 30px;
+}
+
+.copy p {
+  font-weight: 400;
+  font-size: 16px;
+}
